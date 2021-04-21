@@ -77,3 +77,18 @@ DROP TABLE posts
 ```bash
 diesel migration run
 ```
+
+insert record
+
+```bash
+sqlite3 sample.db
+
+sqlite> insert into posts (id, title, body, published) valued (1, 'takurinton', 'hoge', 1);
+sqlite> select * from posts;
+```
+
+get record
+
+```bash
+cargo run --bin posts
+```
