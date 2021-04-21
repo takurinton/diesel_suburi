@@ -1,7 +1,5 @@
 ## dieselの素振り
 
-マリリントンアプリを作成するための素振り。  
-
 ### 参考
 
 [公式ドキュメントのMySQLのサンプル](https://github.com/diesel-rs/diesel/tree/0.15.x/examples/mysql)がわかりやすいと思う。  
