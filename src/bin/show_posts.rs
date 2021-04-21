@@ -1,12 +1,11 @@
 use diesel::*;
 use diesel_sample::*;
 use self::models::*;
-use diesel::prelude::*;
 
 fn main() {
     use self::schema::posts::dsl::*;
 
-    let connection = db_connect();
+    let connection = establish_connection();
     let results = posts
         .load::<Post>(&connection)
         .expect("Error loading posts");
