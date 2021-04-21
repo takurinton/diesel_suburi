@@ -90,3 +90,15 @@ get record
 ```bash
 cargo run --bin posts
 ```
+
+build server 
+
+```bash
+cargo run --package diesel_sample --bin diesel_sample
+```
+
+go [localhost:8000](http://localhost:8000)
+
+```
+[{"id":1,"title":"takurinton","body":"hoge","published":true},{"id":2,"title":"takumi","body":"fuga","published":true},{"id":3,"title":"marina","body":"marina loves me","published":true}]
+```
