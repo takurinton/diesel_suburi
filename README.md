@@ -2,6 +2,12 @@
 
 マリリントンアプリを作成するための素振り。  
 
+### 参考
+
+[公式ドキュメントのMySQLのサンプル](https://github.com/diesel-rs/diesel/tree/0.15.x/examples/mysql)がわかりやすいと思う。  
+他にも sqlite や postgres のサンプルもあるので必要に応じて参照する。
+
+
 ### 手順
 
 install 
